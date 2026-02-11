@@ -1,3 +1,5 @@
+Node.js | Express | PostgreSQL
+
 # Product Management API
 
 Simple application for creating, editing and deleting products. Built with Node.js and PostgreSQL.
@@ -44,6 +46,12 @@ This project follows a layered architecture:
 - **Repository** → communicates with the database
 - **Middleware** → error handling and validation
 
+##error handling
+
+400 – Validation error
+404 – Product not found
+500 – Server error
+
 ## Example Request
 
 ```http
@@ -59,4 +67,5 @@ POST /api
 
 - Node.js
 - PostgreSQL
+
 
