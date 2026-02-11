@@ -16,7 +16,7 @@ Simple application for creating, editing and deleting products. Built with Node.
    DB_NAME=
    DB_PASSWORD=
    DB_PORT=
-   PORT=5000
+   PORT=
    ```
 
 ## Running
@@ -25,7 +25,7 @@ Simple application for creating, editing and deleting products. Built with Node.
 npm start
 ```
 
-Server will run on `http://localhost:5000`
+Server will run on `http://localhost:****`
 
 ## API Endpoints
 
@@ -59,3 +59,4 @@ POST /api
 
 - Node.js
 - PostgreSQL
+
