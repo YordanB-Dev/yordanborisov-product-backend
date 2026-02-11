@@ -2,7 +2,7 @@ Node.js | Express | PostgreSQL
 
 # Product Management API
 
-Simple application for creating, editing and deleting products. Built with Node.js and PostgreSQL.
+RESTful API built with layered architecture demonstrating separation of concerns and clean backend structure.
 
 ## Installation
 
@@ -67,5 +67,6 @@ POST /api
 
 - Node.js
 - PostgreSQL
+
 
 
