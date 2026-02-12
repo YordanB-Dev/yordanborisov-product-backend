@@ -2,7 +2,36 @@ Node.js | Express | PostgreSQL
 
 # Product Management API
 
-RESTful API built with layered architecture demonstrating separation of concerns and clean backend structure.
+RESTful API for managing products.
+Built with Node.js, Express and PostgreSQL using a layered architecture pattern.
+
+##Features
+
+- RESTful CRUD operations
+
+- Layered architecture    (Controller / Service / Repository)
+
+- PostgreSQL database integration
+
+- Environment-based configuration (.env)
+
+- Input validation middleware
+
+- Centralized error handling
+
+- Clean and scalable project structure
+
+## Tech Stack
+
+- Node.js
+
+- Express.js
+
+- PostgreSQL
+
+- dotenv
+
+- JavaScript (ES6+)
 
 ## Installation
 
@@ -27,7 +56,7 @@ RESTful API built with layered architecture demonstrating separation of concerns
 npm start
 ```
 
-Server will run on `http://localhost:****`
+Server will run on `http://localhost:PORT`
 
 ## API Endpoints
 
@@ -67,6 +96,12 @@ POST /api
 
 - Node.js
 - PostgreSQL
+
+## Author
+
+Yordan Borisov
+
+Backend Developer (Node.js / Express / PostgreSQL)
 
 
 
